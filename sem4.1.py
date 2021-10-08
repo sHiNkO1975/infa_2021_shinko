@@ -58,7 +58,7 @@ def pbear():
 
 def fish():
     image = pygame.Surface((369,199 ))
-    img = pygame.image.load(r'C:\Users\shink\Desktop\karas.png')
+    img = pygame.image.load('karas.png')
     image.blit(img,(0,0))
     new_image = pygame.transform.scale(image, (100, 70))
     screen.blit(new_image,(250,480))
