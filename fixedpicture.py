@@ -56,12 +56,12 @@ def bear(screen, xsize, ysize, x, y, orientation):
     #EYE
     ellipse(surf, bordercolor, (110, 225, 5, 5))
     #SMILE
-    pygame.draw.arc(surf, bordercolor, [75, 190, 115, 55], -3.14 / 4 - 0.7, -3.14 / 4)
+    arc(surf, bordercolor, [75, 190, 115, 55], -3.14 / 4 - 0.7, -3.14 / 4)
     #EAR
     ellipse(surf, bearcolor, [80, 215, 15, 10])
-    pygame.draw.arc(surf, bordercolor, [80, 215, 15, 10], -3.14 / 3, 3.14 * 4 / 3, 2)
+    arc(surf, bordercolor, [80, 215, 15, 10], -3.14 / 3, 3.14 * 4 / 3, 2)
     #EARSNAIL
-    pygame.draw.arc(surf, bordercolor, [140, 300, 250, 230], 3.14 * 4 / 5 - 0.1, 3.14 * 5 / 6 + 0.3, 4)
+    arc(surf, bordercolor, [140, 300, 250, 230], 3.14 * 4 / 5 - 0.1, 3.14 * 5 / 6 + 0.3, 4)
     #FISHINGHOLE
     ellipse(surf, holecolor, (220, 425, 150, 50))
     ellipse(surf, bordercolor, (220, 425, 150, 50), 2)
